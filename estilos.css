@@ -1,21 +1,108 @@
+@font-face {
+  font-family: 'dancing script';
+  src: url('dancing-script.otf');
+}
 *{
 	margin:0;
 }
 
 body{
-	background: black;
+	background: #02010a;
 	color: white;
 	font-size: 16px;
-	font-family: sans-serif;
-
+	font-family: "Dancing Script";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding-bottom:   20px;
 }
 
 #wrapper
 {
-	width: 80%;
+	width: 900px;
 	margin: 0 auto;
 }
 header{
+	padding: 20px;
 	background: #5b7989;
 	border-radius: 10px 10px 0 0 ;
+	align-content: stretch;
+	height: 40px;
+}
+
+.encabezado1{
+	display: inline;
+}
+.encabezado1 h1{
+	text-shadow: 2px 2px 2px  #02010a;
+
+	float: left;
+
+}
+.encabezado2 {
+	padding-top: 5px;
+	width: 220px;
+	float: right;
+
+	display: inline;
+}
+.encabezado2 a{
+	color: white;
+	padding: 5px;
+text-decoration: none;
+float: right;
+
+}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	width: 100%;
+	padding: 0%;
+	text-align: center;
+
+}
+#columna1
+{
+	background-color: #82c3a6;
+	width: 100%;
+}
+#columna1 img{
+	width: 80%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+
+}
+.imgmedia{
+	background-color: #d5c75f;
+	width: 50%;
+	height: 300px;
+}
+.imgmedia img{
+
+	width: 80%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+
+}
+
+footer article
+{
+	box-sizing: border-box;
+	float:left;
+	width: 25%;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	height: 200px;
+	background: #C6d5c5;
+
+}
+footer #derechos{
+	border-radius:  0 0 10px 0;
+}
+footer #contactos{
+	border-radius:  0 0 0 10px;
 }
